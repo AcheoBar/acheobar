@@ -9,13 +9,12 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<style>
 			#map{
-			height: 600px;
-			width: 600px;
-
+			height: 400px;
+			width: 50%;
 			}
 			.jumbotron {
-			background-color: black;
-			color: white;
+			background-color: #DAA520;
+			color: #E0FFFF;
 			}
 		</style>
 	</head>
@@ -23,12 +22,12 @@
 
 		<div class="jumbotron text-center">
 			<h1>Ache o bar</h1>
-			<p>Encontre o bar ideal pra você</p>
+			<p>Encontre aqui o bar ideal pra voce.</p>
 			<form class="form-inline">
 				<div class="input-group">
-					<input type="text" class="form-control" size="50" placeholder="Digite o nome do bar que deseja localizar" required>
+					<input type="text" class="form-control" size="50" placeholder="digite" required>
 					<div class="input-group-btn">
-						<a href="index2.html" class="btn btn-danger">Buscar</a>
+						<a href="index2.html" class="btn btn-danger">BUSCAR</a>
 					</div>
 				</div>
 				<button type="button" class="btn btn-danger">Busca Avançada</button>
@@ -80,7 +79,7 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-		<div id='map' ></div>
+		<div id='map'></div>
 	  <script>
       function initMap() {
         var uluru = {lat: -15.8402659, lng: -47.9508828};
@@ -98,10 +97,6 @@
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCX13uAxcDLQabtuLfyBXa2GdwFv84uoY&callback=initMap">
     </script>
-		<div class="jumbotron text-center">
-			<p></p>
-			<p>Ache o bar</p>
-			<p>Direitos Reservados</p>
-		</div>
+
 	</body>
 </html>
